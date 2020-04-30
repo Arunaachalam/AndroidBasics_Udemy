@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/poco"
+        android:id="@+id/first_image"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:scaleType="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POCO Einrichtungsmarkt Rheda-Wiedenbrück"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/text_first"
+        android:layout_below="@id/first_image"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Furniture Store"
+        android:textSize="14sp"
+        android:id="@+id/text_2nd"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/text_first"
+        android:layout_marginLeft="12dp"/>
+
+    <ImageView
+        android:layout_width="14sp"
+        android:layout_height="14sp"
+        android:src="@drawable/location"
+        android:id="@+id/second_image"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/text_2nd"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hauptstraße 194, 33378 Rheda-Wiedenbrück"
+        android:textSize="14sp"
+        android:id="@+id/text_3nd"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/text_2nd"
+        android:layout_toRightOf="@id/second_image"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="14sp"
+        android:layout_height="14sp"
+        android:src="@drawable/location"
+        android:id="@+id/third_image"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/text_3nd"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R7WW+Q4 Rheda-Wiedenbrück"
+        android:textSize="14sp"
+        android:id="@+id/text_4th"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/text_3nd"
+        android:layout_toRightOf="@id/third_image"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="14sp"
+        android:layout_height="14sp"
+        android:src="@drawable/location"
+        android:id="@+id/fourth_image"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/text_4th"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="poco.de"
+        android:textSize="14sp"
+        android:id="@+id/text_5th"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/text_4th"
+        android:layout_toRightOf="@id/fourth_image"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="14sp"
+        android:layout_height="14sp"
+        android:src="@drawable/location"
+        android:id="@+id/fifth_image"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/text_5th"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="05242 5789610"
+        android:textSize="14sp"
+        android:id="@+id/text_6th"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/text_5th"
+        android:layout_toRightOf="@id/fifth_image"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="14sp"
+        android:layout_height="14sp"
+        android:src="@drawable/location"
+        android:id="@+id/sixth_image"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/text_6th"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Except Sundays 08:00 - 21:00"
+        android:textSize="14sp"
+        android:id="@+id/text_7th"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/text_6th"
+        android:layout_toRightOf="@id/sixth_image"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
